@@ -19,6 +19,8 @@ export type Categoria =
     imagem: string;
     logoMarca: string;
     categoria: Categoria;
+    tamanhos?: string[];
     linkShopee?: string;
   }
+  
   
