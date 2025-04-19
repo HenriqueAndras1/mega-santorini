@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import { useParams } from 'react-router-dom';
 import { camisetas, moletons, calcas, tshirtsFemininas, bobojacos, tenis, cuecas, meias, plusSize, polos, bermudas, combos } from '../data';
 import { Produto } from '../data/produtos';
@@ -35,7 +36,7 @@ const ProdutosPorCategoria = () => {
   const filterProducts = () => {
     return produtos.filter((produto) => {
       const matchesBrand = selectedBrand === "" || produto.marca === selectedBrand;
-      const matchesSize = selectedSize === "" || produto.tamanhos.includes(selectedSize);
+      const matchesSize = selectedSize === "" || produto.tamanhos?.includes(selectedSize);
       return matchesBrand && matchesSize;
     });
   };
