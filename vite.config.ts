@@ -7,5 +7,5 @@ export default defineConfig({
   server: {
     open: true,
   },
-  base: '/', // Caminho base para produção
+  base: '/',
 })
