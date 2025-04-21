@@ -17,5 +17,5 @@ export default defineConfig({
 
   // Caminho base para produção (importante para GitHub Pages)
   // Sem isso, os caminhos dos arquivos no HTML quebram
-  base: '/mega-santorini/', // <-- coloque o nome do seu repositório aqui
+  base: '/megasantorini/', // <-- coloque o nome do seu repositório aqui
 })
