@@ -14,4 +14,8 @@ export default defineConfig({
   server: {
     open: true, // Abre automaticamente no navegador ao rodar `npm run dev`
   },
+
+  // Caminho base para produção (importante para GitHub Pages)
+  // Sem isso, os caminhos dos arquivos no HTML quebram
+  base: '/', // <-- coloque o nome do seu repositório aqui
 })
