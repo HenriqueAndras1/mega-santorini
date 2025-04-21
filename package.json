@@ -1,16 +1,13 @@
 {
   "name": "megasantorini",
   "private": true,
-  "homepage": "https://henriqueandras1.github.io/megasantorini",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.7",
